@@ -404,8 +404,8 @@ a:focus {
 
 .modal-backdrop {
   z-index: 1000 !important;
-  pointer-events: none !important;
-  background-color: #0000005e !important
+  background-color: #0000005e !important;
+  height: max-content;
 }
 
 
