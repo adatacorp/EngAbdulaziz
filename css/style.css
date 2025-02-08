@@ -106,7 +106,7 @@ a:focus {
 }
 
 .header_section .header_top .contact_nav a i {
-  color: #ff8a1d;
+  color: #ffd12d;
 }
 
 .header_section .header_bottom {
@@ -285,6 +285,11 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
+
+#body_main {
+  background-image: url(/images/beautiful.jpg);
+}
+
 
 .slider_section #customCarousel1 {
   width: 100%;
@@ -839,3 +844,8 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+
+.content-desc {
+  display: none;
+}
