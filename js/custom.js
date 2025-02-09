@@ -30,7 +30,6 @@ $(".owl-carousel").owlCarousel({
         }
     }
 });
-1°16'07.4"S 36°48'34.3"E
 
 /** google_map js **/
 
