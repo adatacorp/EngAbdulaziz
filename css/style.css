@@ -402,14 +402,6 @@ a:focus {
   fill: #ffffff;
 }
 
-.modal-backdrop {
-  z-index: 1000 !important;
-  background-color: #0000005e !important;
-  height: max-content;
-}
-
-
-
 .about_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
