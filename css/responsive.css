@@ -70,11 +70,6 @@
         margin-bottom: 45px;
     }
 
-    .modal-backdrop {
-        z-index: 500 !important;
-        background-color: #000000ea !important;
-        height: max-content;
-      }
 
     .contact_section form {
         margin-bottom: 45px;

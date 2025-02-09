@@ -32,10 +32,6 @@ $(".owl-carousel").owlCarousel({
     }
 });
 
-setTimeout(function () {
-    $(".owl-image-carousel").trigger('refresh.owl.carousel');
-}, 500);
- 
 /** google_map js **/
 
 // function myMap() {
@@ -45,26 +41,3 @@ setTimeout(function () {
 //     };
 //     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 // }
-
-$(document).ready(function(){
-    $(".owl-image-carousel").owlCarousel({
-      loop: true,               // Infinite loop
-      nav: true,                // Show navigation arrows
-      dots: true,               // Show dots navigation
-      autoplay: true,           // Auto play slider
-      autoplayTimeout: 3000,    // Change image every 3 seconds
-      autoplayHoverPause: true, // Pause on hover
-      items: 1,
-      responsive: {
-        0: {
-            items: 1
-        },
-        768: {
-            items: 2
-        },
-        1000: {
-            items: 2
-        }
-    }   
-    });
-  });
